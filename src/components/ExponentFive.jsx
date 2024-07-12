@@ -3,7 +3,7 @@ const ExponentFive = (props) => (
     <p className="exponent-label">n⁵</p>
     <p className="exponent-result">
       {props.count} * {props.count} * {props.count} * {props.count} *{" "}
-      {props.count} = <span className="total">{props.count}**5</span>
+      {props.count} = <span className="total">{props.count**5}git</span>
     </p>
   </div>
 );
